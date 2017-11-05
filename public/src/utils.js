@@ -10,4 +10,17 @@ define(['jquery'],function ($){
             }
         }
     })
+    // 推出登陆
+    // $('.logout').on('click',function(){
+    //     $.ajax({
+    //         url:'/api/employee/employeeLogout',
+    //         type:'get',
+    //         success:function(info){
+    //             if(info.success){
+    //                 location.href='/login.html';
+    //             }
+    //         }
+
+    //     })
+    // })
 })
